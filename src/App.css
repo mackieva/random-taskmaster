@@ -3,12 +3,10 @@
 	src: url('assets/veteran_typewriter.ttf');
 }
 
-.tm_heading {
+body {
 	font-family: 'tm';
 }
 
 .container {
 	background: radial-gradient(at top left, #aa262d, #480104);
-	height: 100vh;
-	width: 100%;
 }
