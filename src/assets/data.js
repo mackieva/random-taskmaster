@@ -84,7 +84,7 @@ export const list = [
 		videoId: `https://www.youtube.com/watch?v=hA- V69w- nJo`,
 	},
 	{
-		episode: `Taskmaster Series 3, Episode 1 - A Pea In A Haystack`,
+		episode: `Series 3, Episode 1 - A Pea In A Haystack`,
 		videoId: `https://www.youtube.com/watch?v=u6XVoKI3AnE`,
 	},
 	{
@@ -120,7 +120,7 @@ export const list = [
 		videoId: `https://www.youtube.com/watch?v=FNmTtk4n1xg`,
 	},
 	{
-		episode: `Series 4, Episode 5 - 'Meat.`,
+		episode: `Series 4, Episode 5 - Meat.`,
 		videoId: `https://www.youtube.com/watch?v=ljLBbpnkK2c`,
 	},
 	{
@@ -160,7 +160,7 @@ export const list = [
 		videoId: `https://www.youtube.com/watch?v=1GyE1DvUws0`,
 	},
 	{
-		episode: `Taskmaster -  Series 5, Episode 7 - 'Boing Boing`,
+		episode: `Series 5, Episode 7 - Boing Boing`,
 		videoId: `https://www.youtube.com/watch?v=IIHKAfxrZdg`,
 	},
 	{
@@ -200,11 +200,11 @@ export const list = [
 		videoId: `https://www.youtube.com/watch?v=ZNJb2NC8KD0`,
 	},
 	{
-		episode: `Taskmaster -  Series 7, Episode 9 - 'The pendulum draws the eye.`,
+		episode: `Series 7, Episode 9 - The pendulum draws the eye.`,
 		videoId: `https://www.youtube.com/watch?v=dzgWSEj8h58`,
 	},
 	{
-		episode: `Taskmaster -  Series 7, Episode 10 - 'I can hear it gooping`,
+		episode: `Series 7, Episode 10 - I can hear it gooping`,
 		videoId: `https://www.youtube.com/watch?v=wjARUcpnQ24`,
 	},
 	{
@@ -212,7 +212,7 @@ export const list = [
 		videoId: `https://www.youtube.com/watch?v=39n5LJel7qk`,
 	},
 	{
-		episode: `Series 8, Episode 2 - 'A Novel About Russian Gulags.`,
+		episode: `Series 8, Episode 2 - A Novel About Russian Gulags.`,
 		videoId: `https://www.youtube.com/watch?v=4NYEgDNEWUE`,
 	},
 	{
@@ -268,7 +268,7 @@ export const list = [
 		videoId: `https://www.youtube.com/watch?v=G_0_mIgC- fw`,
 	},
 	{
-		episode: `Taskmaster -  Series 9, Episode 6 - "Bready Bready Bready"`,
+		episode: `Series 9, Episode 6 - "Bready Bready Bready"`,
 		videoId: `https://www.youtube.com/watch?v=tALqBLizFmg`,
 	},
 	{
