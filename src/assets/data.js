@@ -1,45 +1,5 @@
 export const list = [
 	{
-		episode: `Series 17, Episode 1 - Grappling with my life.`,
-		videoId: `https://www.youtube.com/watch?v=DP- 3- YCpSeM`,
-	},
-	{
-		episode: `Series 17, Episode 2 - Jumungo.`,
-		videoId: `https://www.youtube.com/watch?v=nz7B9zVGowI`,
-	},
-	{
-		episode: `Series 17, Episode 3 - Some impropriety?`,
-		videoId: `https://www.youtube.com/watch?v=Ar9J2MH1lNI`,
-	},
-	{
-		episode: `Series 17, Episode 4 - Apropos of Apoppo.`,
-		videoId: `https://www.youtube.com/watch?v=9eHbF1F0wlw`,
-	},
-	{
-		episode: `Series 17, Episode 5 - Snooker cue umbrella chin.`,
-		videoId: `https://www.youtube.com/watch?v=ZPtE12rRDkk`,
-	},
-	{
-		episode: `Series 17, Episode 6 - A three ring man.`,
-		videoId: `https://www.youtube.com/watch?v=DDM_IwUArQI`,
-	},
-	{
-		episode: `Series 17, Episode 7 - Dream date territory.`,
-		videoId: `https://www.youtube.com/watch?v=pz9UW1M5inw`,
-	},
-	{
-		episode: `Series 17, Episode 8 - The umbrella wink.`,
-		videoId: `https://www.youtube.com/watch?v=Bd7eaxP8xEE`,
-	},
-	{
-		episode: `Series 17, Episode 9 - Assistantbury.`,
-		videoId: `https://www.youtube.com/watch?v=GxIj5dT_dqQ`,
-	},
-	{
-		episode: `Series 17, Episode 10 - Ambience and information.`,
-		videoId: `https://www.youtube.com/watch?v=4iGb0vDZMd4`,
-	},
-	{
 		episode: `Series 1, Episode 1 - Melon buffet.`,
 		videoId: `https://www.youtube.com/watch?v=v4YhsooE5xY`,
 	},
@@ -164,7 +124,7 @@ export const list = [
 		videoId: `https://www.youtube.com/watch?v=IIHKAfxrZdg`,
 	},
 	{
-		episode: `Series 5, Episode 8 - Their Water's So Delicious'- Full Episode`,
+		episode: `Series 5, Episode 8 - Their Water's So Delicious`,
 		videoId: `https://www.youtube.com/watch?v=au27epHLAss`,
 	},
 	{
@@ -446,5 +406,45 @@ export const list = [
 	{
 		episode: `Series 14, Episode 10 -  Did I Meet These Potatoes Before?`,
 		videoId: `https://www.youtube.com/watch?v=1PO9t2QXmiQ`,
+	},
+	{
+		episode: `Series 17, Episode 1 - Grappling with my life.`,
+		videoId: `https://www.youtube.com/watch?v=DP- 3- YCpSeM`,
+	},
+	{
+		episode: `Series 17, Episode 2 - Jumungo.`,
+		videoId: `https://www.youtube.com/watch?v=nz7B9zVGowI`,
+	},
+	{
+		episode: `Series 17, Episode 3 - Some impropriety?`,
+		videoId: `https://www.youtube.com/watch?v=Ar9J2MH1lNI`,
+	},
+	{
+		episode: `Series 17, Episode 4 - Apropos of Apoppo.`,
+		videoId: `https://www.youtube.com/watch?v=9eHbF1F0wlw`,
+	},
+	{
+		episode: `Series 17, Episode 5 - Snooker cue umbrella chin.`,
+		videoId: `https://www.youtube.com/watch?v=ZPtE12rRDkk`,
+	},
+	{
+		episode: `Series 17, Episode 6 - A three ring man.`,
+		videoId: `https://www.youtube.com/watch?v=DDM_IwUArQI`,
+	},
+	{
+		episode: `Series 17, Episode 7 - Dream date territory.`,
+		videoId: `https://www.youtube.com/watch?v=pz9UW1M5inw`,
+	},
+	{
+		episode: `Series 17, Episode 8 - The umbrella wink.`,
+		videoId: `https://www.youtube.com/watch?v=Bd7eaxP8xEE`,
+	},
+	{
+		episode: `Series 17, Episode 9 - Assistantbury.`,
+		videoId: `https://www.youtube.com/watch?v=GxIj5dT_dqQ`,
+	},
+	{
+		episode: `Series 17, Episode 10 - Ambience and information.`,
+		videoId: `https://www.youtube.com/watch?v=4iGb0vDZMd4`,
 	},
 ];

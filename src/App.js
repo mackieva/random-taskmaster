@@ -7,12 +7,19 @@ import { useRef, useState } from 'react';
 function App() {
 	const [episode, setEpisode] = useState({});
 	const [play, setPlay] = useState(false);
-	const [full, setFull] = useState(0);
+	const [cover, setCover] = useState(false);
 	const tmPlayer = useRef();
 
-	// function handlePause() {
-	// 	//showPreview()
-	// }
+	function handlePause() {
+		//showPreview()
+		setPlay(false);
+		setCover(true);
+	}
+
+	function handlePlay() {
+		setCover(false);
+		setPlay(true);
+	}
 
 	function handleClick() {
 		const newEp = getEpisode();
@@ -37,30 +44,37 @@ function App() {
 					url={episode.videoId}
 					playing={play}
 					ref={tmPlayer}
+					light={cover}
 					controls={true}
 				/>
 			)}
 			<div className='flex gap-5'>
 				<button
-					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold'
-					onClick={() => setPlay(!play)}
+					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointer'
+					onClick={handlePlay}
 				>
-					{play ? 'Pause' : 'Play'}
+					Play
 				</button>
 				<button
-					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold'
+					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointer'
+					onClick={handlePause}
+				>
+					Pause Test
+				</button>
+				<button
+					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointer'
 					onClick={handleSkip}
 				>
 					Skip Intro
 				</button>
 				<button
-					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold'
+					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointer'
 					onClick={handleFullScreen}
 				>
 					Full Screen
 				</button>
 				<button
-					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold'
+					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointer'
 					onClick={handleClick}
 				>
 					Taskmaster Starts Now
