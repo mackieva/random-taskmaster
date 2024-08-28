@@ -24,18 +24,21 @@ function App() {
 		tmPlayer.current.seekTo(26, 'seconds');
 	}
 
-	function handleFullScreen() {
-		screenfull.request(findDOMNode(tmPlayer.current));
-	}
+	function handleFullScreen() {}
 
 	return (
-		<div className='container flex flex-col justify-center items-center w-screen h-screen'>
+		<div className='tmGradient flex flex-col justify-center items-center w-screen h-screen'>
 			<h1 className='tm_heading text-white text-5xl mb-4'>
 				Taskmaster Roulette
 			</h1>
 			<h3 className='tm_heading text-white text-xl mb-6'>{episode.episode}</h3>
 			{episode.videoId && (
-				<ReactPlayer url={episode.videoId} playing={play} ref={tmPlayer} />
+				<ReactPlayer
+					url={episode.videoId}
+					playing={play}
+					ref={tmPlayer}
+					controls={true}
+				/>
 			)}
 			<div className='flex gap-5'>
 				<button
@@ -48,7 +51,7 @@ function App() {
 					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold'
 					onClick={handleSkip}
 				>
-					Skip Into
+					Skip Intro
 				</button>
 				<button
 					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold'
