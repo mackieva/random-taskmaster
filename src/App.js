@@ -13,11 +13,9 @@ function App() {
 	function handlePause() {
 		//showPreview()
 		setPlay(false);
-		setCover(true);
 	}
 
 	function handlePlay() {
-		setCover(false);
 		setPlay(true);
 	}
 
@@ -31,7 +29,9 @@ function App() {
 		tmPlayer.current.seekTo(26, 'seconds');
 	}
 
-	function handleFullScreen() {}
+	function handleFullScreen() {
+		tmPlayer.current.simulate('keypress', { key: 'f' });
+	}
 
 	return (
 		<div className='tmGradient flex flex-col justify-center items-center w-screen h-screen'>
@@ -59,7 +59,7 @@ function App() {
 					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointer'
 					onClick={handlePause}
 				>
-					Pause Test
+					Pause
 				</button>
 				<button
 					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointer'

@@ -5,7 +5,7 @@ export const list = [
 	},
 	{
 		episode: `Series 1, Episode 2 - The pie whisperer.`,
-		videoId: `https://www.youtube.com/watch?v=vR- fE797Y- w`,
+		videoId: `https://www.youtube.com/watch?v=vR-fE797Y-w`,
 	},
 	{
 		episode: `Series 1, Episode 3 'The poet and the egg.`,
@@ -41,7 +41,7 @@ export const list = [
 	},
 	{
 		episode: `Series 2, Episode 5 - There's Strength in Arches.`,
-		videoId: `https://www.youtube.com/watch?v=hA- V69w- nJo`,
+		videoId: `https://www.youtube.com/watch?v=hA-V69w-nJo`,
 	},
 	{
 		episode: `Series 3, Episode 1 - A Pea In A Haystack`,
@@ -57,7 +57,7 @@ export const list = [
 	},
 	{
 		episode: `Series 3, Episode 4 - A Very Nuanced Character.`,
-		videoId: `https://www.youtube.com/watch?v=l- HWSd6oDvs`,
+		videoId: `https://www.youtube.com/watch?v=l-HWSd6oDvs`,
 	},
 	{
 		episode: `Series 3, Episode 5 - The FIP.`,
@@ -101,7 +101,7 @@ export const list = [
 	},
 	{
 		episode: `Series 5, Episode 2 - The Leprechaun or The Lesbian`,
-		videoId: `https://www.youtube.com/watch?v=Jx- L48koQY4`,
+		videoId: `https://www.youtube.com/watch?v=Jx-L48koQY4`,
 	},
 	{
 		episode: `Series 5, Episode 3 - Phoenix.`,
@@ -217,15 +217,15 @@ export const list = [
 	},
 	{
 		episode: `Series 9, Episode 3 - Five Miles Per Day.`,
-		videoId: `https://www.youtube.com/watch?v=fh3- FlD8SxU`,
+		videoId: `https://www.youtube.com/watch?v=fh3-FlD8SxU`,
 	},
 	{
 		episode: `Series 9, Episode 4 - Quisps.`,
-		videoId: `https://www.youtube.com/watch?v=ByIgWZBZM- w`,
+		videoId: `https://www.youtube.com/watch?v=ByIgWZBZM-w`,
 	},
 	{
 		episode: `Series 9, Episode 5 - Another Spoon.`,
-		videoId: `https://www.youtube.com/watch?v=G_0_mIgC- fw`,
+		videoId: `https://www.youtube.com/watch?v=G_0_mIgC-fw`,
 	},
 	{
 		episode: `Series 9, Episode 6 - "Bready Bready Bready"`,
@@ -237,7 +237,7 @@ export const list = [
 	},
 	{
 		episode: `Series 9, Episode 8 - Shaqinahat.`,
-		videoId: `https://www.youtube.com/watch?v=RiAttf- oJVE`,
+		videoId: `https://www.youtube.com/watch?v=RiAttf-oJVE`,
 	},
 	{
 		episode: `Series 9, Episode 9 - Don't Like Them Go Bang,`,
@@ -261,7 +261,7 @@ export const list = [
 	},
 	{
 		episode: `Series 11 Episode 4 - Premature Conker.`,
-		videoId: `https://www.youtube.com/watch?v=C54- nSAihho`,
+		videoId: `https://www.youtube.com/watch?v=C54-nSAihho`,
 	},
 	{
 		episode: `Series 11 Episode 5 - Slap And Tong.`,
@@ -285,7 +285,7 @@ export const list = [
 	},
 	{
 		episode: `Series 11, Episode 10 - Activate Jamali.`,
-		videoId: `https://www.youtube.com/watch?v=ppozUaQN- tM`,
+		videoId: `https://www.youtube.com/watch?v=ppozUaQN-tM`,
 	},
 	{
 		episode: `Series 12, Episode 1 - An imbalance in the poppability.`,
@@ -301,11 +301,11 @@ export const list = [
 	},
 	{
 		episode: `Series 12, Episode 4 - The customised inhaler.`,
-		videoId: `https://www.youtube.com/watch?v=4VxW73L- Ry0`,
+		videoId: `https://www.youtube.com/watch?v=4VxW73L-Ry0`,
 	},
 	{
 		episode: `Series 12, Episode 5 - Croissants is croissants.`,
-		videoId: `https://www.youtube.com/watch?v=AAZ- e4miph4`,
+		videoId: `https://www.youtube.com/watch?v=AAZ-e4miph4`,
 	},
 	{
 		episode: `Series 12, Episode 6 - A chair in a sweet.`,
@@ -313,7 +313,7 @@ export const list = [
 	},
 	{
 		episode: `Series 12, Episode 7 - The integrity of the product.`,
-		videoId: `https://www.youtube.com/watch?v=9VOmk- Q_1vM`,
+		videoId: `https://www.youtube.com/watch?v=9VOmk-Q_1vM`,
 	},
 	{
 		episode: `Series 12, Episode 8 - A couple of Ethels.`,
@@ -333,7 +333,7 @@ export const list = [
 	},
 	{
 		episode: `Series 13, Episode 2 - Birdy hand finger.`,
-		videoId: `https://www.youtube.com/watch?v=U9A- wBr9R5U`,
+		videoId: `https://www.youtube.com/watch?v=U9A-wBr9R5U`,
 	},
 	{
 		episode: `Series 13, Episode 3 - I think I’ve got this.`,
@@ -345,7 +345,7 @@ export const list = [
 	},
 	{
 		episode: `Series 13, Episode 5 - Having a little chuckle.`,
-		videoId: `https://www.youtube.com/watch?v=UOasWQl- Tww`,
+		videoId: `https://www.youtube.com/watch?v=UOasWQl-Tww`,
 	},
 	{
 		episode: `Series 13, Episode 6 - The 75th question.`,
@@ -381,7 +381,7 @@ export const list = [
 	},
 	{
 		episode: `Series 14, Episode 4 -  Crumbs In My Bralette`,
-		videoId: `https://www.youtube.com/watch?v=K5vk- RzGods`,
+		videoId: `https://www.youtube.com/watch?v=K5vk-RzGods`,
 	},
 	{
 		episode: `Series 14, Episode 5 - Chip Biffington.`,
@@ -409,7 +409,7 @@ export const list = [
 	},
 	{
 		episode: `Series 17, Episode 1 - Grappling with my life.`,
-		videoId: `https://www.youtube.com/watch?v=DP- 3- YCpSeM`,
+		videoId: `https://www.youtube.com/watch?v=DP-3-YCpSeM`,
 	},
 	{
 		episode: `Series 17, Episode 2 - Jumungo.`,
