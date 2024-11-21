@@ -48,31 +48,31 @@ function App() {
 			)}
 			<div className='flex justify-center gap-5'>
 				<button
-					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointer'
+					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold w-full hover:cursor-pointer'
 					onClick={handleNewEp}
 				>
 					Gimme an Episode
 				</button>
+			</div>
+			<div
+				className={`flex justify-center gap-5 ${
+					started ? 'btnHide btnAdded' : 'btnHide'
+				}`}
+			>
 				<button
-					className={`bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointer ${
-						started ? 'btnHide btnAdded' : 'btnHide'
-					}`}
+					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointe'
 					onClick={handlePlay}
 				>
 					Play
 				</button>
 				<button
-					className={`bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointer ${
-						started ? 'btnHide btnAdded' : 'btnHide'
-					}`}
+					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointe'
 					onClick={handlePause}
 				>
 					Pause
 				</button>
 				<button
-					className={`bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointer ${
-						started ? 'btnHide btnAdded' : 'btnHide'
-					}`}
+					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointer'
 					onClick={handleSkip}
 				>
 					Skip Intro
