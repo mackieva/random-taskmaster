@@ -8,10 +8,10 @@ function App() {
 	const [episode, setEpisode] = useState({});
 	const [play, setPlay] = useState(false);
 	const [cover, setCover] = useState(false);
+	const [started, setStarted] = useState(false);
 	const tmPlayer = useRef();
 
 	function handlePause() {
-		//showPreview()
 		setPlay(false);
 	}
 
@@ -19,18 +19,16 @@ function App() {
 		setPlay(true);
 	}
 
-	function handleClick() {
+	function handleNewEp() {
 		const newEp = getEpisode();
-		console.log(newEp);
 		setEpisode(newEp);
+		if (started === false) {
+			setStarted(true);
+		}
 	}
 
 	function handleSkip() {
 		tmPlayer.current.seekTo(26, 'seconds');
-	}
-
-	function handleFullScreen() {
-		tmPlayer.current.simulate('keypress', { key: 'f' });
 	}
 
 	return (
@@ -48,36 +46,36 @@ function App() {
 					controls={true}
 				/>
 			)}
-			<div className='flex gap-5'>
+			<div className='flex justify-center gap-5'>
 				<button
 					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointer'
+					onClick={handleNewEp}
+				>
+					Gimme an Episode
+				</button>
+				<button
+					className={`bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointer ${
+						started ? 'btnHide btnAdded' : 'btnHide'
+					}`}
 					onClick={handlePlay}
 				>
 					Play
 				</button>
 				<button
-					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointer'
+					className={`bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointer ${
+						started ? 'btnHide btnAdded' : 'btnHide'
+					}`}
 					onClick={handlePause}
 				>
 					Pause
 				</button>
 				<button
-					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointer'
+					className={`bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointer ${
+						started ? 'btnHide btnAdded' : 'btnHide'
+					}`}
 					onClick={handleSkip}
 				>
 					Skip Intro
-				</button>
-				<button
-					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointer'
-					onClick={handleFullScreen}
-				>
-					Full Screen
-				</button>
-				<button
-					className='bg-white px-7 py-3 mt-6 rounded text-xl font-bold hover:cursor-pointer'
-					onClick={handleClick}
-				>
-					Taskmaster Starts Now
 				</button>
 			</div>
 		</div>
